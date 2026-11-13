@@ -1,0 +1,95 @@
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  height: 4000px;
+  background-image: url('https://raw.githack.com/dddpv/kawai/4094e95173acb0b2cd620271ed9a42bbd4635993/moon-surface-seamless-texture-background-closeup-moon-surface-texture-188679621%20(1).png');
+ background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Audiowide", Static;
+}
+
+#container {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 400%;
+
+  height: 100vh;
+
+  display: flex;
+
+    }
+	
+	#container .section {
+
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  padding: 100px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+#container .section .content {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+#container .section .content .text {
+
+  margin-right: 50px;
+
+  max-width: 400px;
+
+  color: #e3691e;
+
+}
+#container .section .content .text h1 {
+
+  margin: 0;
+
+  padding: 0;
+
+  font-size: 3em;
+  font-family: "Audiowide", sans-serif;
+ 
+}
+#container .section .content .text h1 a {
+	color: #ff69d7;
+}
+#container .section .content .text p{
+
+  font-size: 1.1em;
+  font-family: "Isometra", sans-serif;
+
+}
+
+#container .section .content img {
+
+  min-width: 400px;
+
+}
